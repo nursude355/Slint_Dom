@@ -12,7 +12,7 @@ export component MainWindow inherits Window {
     callback execute();
 
     VerticalLayout {
-        Text { text: status; }
+        Text { text: status;  accessible-role: text; }
         HorizontalLayout {
             start-button := Button {
                 text: "Start";
